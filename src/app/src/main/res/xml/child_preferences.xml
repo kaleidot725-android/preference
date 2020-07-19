@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat
+        app:key="a"
+        app:title="Enable XXXX-XXXX-XXXX" />
+
+    <SwitchPreferenceCompat
+        app:key="b"
+        app:title="Enable XXXX-XXXX-XXXX" />
+
+    <SwitchPreferenceCompat
+        app:key="c"
+        app:title="Enable XXXX-XXXX-XXXX" />
+
+    <SwitchPreferenceCompat
+        app:key="d"
+        app:title="Enable XXXX-XXXX-XXXX" />
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:fragment="jp.kaleidot725.sample.setting.ChildPreferenceFragment"
+        app:key="childPreferenceFragment"
+        app:title="Navigate ChildPreferenceFragment" />
+
+    <Preference
+        app:fragment="jp.kaleidot725.sample.setting.CustomFragment"
+        app:key="navigateCustomFragment"
+        app:title="Navigate CustomFragment" />
+
+    <SwitchPreferenceCompat
+        app:key="switchPreference"
+        app:title="Enable XXXX-XXXX-XXXX" />
+
+</PreferenceScreen>

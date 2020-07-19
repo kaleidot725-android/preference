@@ -10,7 +10,7 @@
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="jp.kaleidot725.sample.setting.SettingFragment"
+        android:name="jp.kaleidot725.sample.setting.ParentPreferenceFragment"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
