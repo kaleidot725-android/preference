@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <Preference
         app:fragment="jp.kaleidot725.sample.setting.ChildPreferenceFragment"
@@ -13,6 +14,12 @@
 
     <SwitchPreferenceCompat
         app:key="switchPreference"
-        app:title="Enable XXXX-XXXX-XXXX" />
+        app:title="Switch"
+        app:summary="Enable XXXX-XXXX-XXXX" />
 
+    <EditTextPreference
+        app:key="editTextPreference"
+        android:title="EditText"
+        app:summary="Input XXXX-XXXX-XXXX"
+        />
 </PreferenceScreen>
