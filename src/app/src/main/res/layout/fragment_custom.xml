@@ -5,10 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".setting.CustomFragment">
 
-    <TextView
+    <ImageView
+        android:id="@+id/custom_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
-        android:text="FEED BACK FRAGMENT" />
+        android:background="#00ff00"
+        tools:ignore="ContentDescription" />
 
 </FrameLayout>

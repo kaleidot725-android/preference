@@ -6,13 +6,13 @@
         app:fragment="jp.kaleidot725.sample.setting.ChildPreferenceFragment"
         app:iconSpaceReserved="false"
         app:key="childPreferenceFragment"
-        app:title="Navigate ChildPreferenceFragment" />
+        app:title="Navigate Child Preference" />
 
     <Preference
         app:fragment="jp.kaleidot725.sample.setting.CustomFragment"
         app:iconSpaceReserved="false"
         app:key="navigateCustomFragment"
-        app:title="Navigate CustomFragment" />
+        app:title="Navigate Custom Preference" />
 
     <Preference
         app:iconSpaceReserved="false"
