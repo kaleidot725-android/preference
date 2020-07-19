@@ -1,25 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <Preference
         app:fragment="jp.kaleidot725.sample.setting.ChildPreferenceFragment"
+        app:iconSpaceReserved="false"
         app:key="childPreferenceFragment"
         app:title="Navigate ChildPreferenceFragment" />
 
     <Preference
         app:fragment="jp.kaleidot725.sample.setting.CustomFragment"
+        app:iconSpaceReserved="false"
         app:key="navigateCustomFragment"
         app:title="Navigate CustomFragment" />
 
+    <Preference
+        app:iconSpaceReserved="false"
+        app:key="intent"
+        app:title="Google Web Search">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.google.com" />
+
+    </Preference>
+
     <SwitchPreferenceCompat
+        app:iconSpaceReserved="false"
         app:key="switchPreference"
-        app:title="Switch"
-        app:summary="Enable XXXX-XXXX-XXXX" />
+        app:summary="Enable XXXX-XXXX-XXXX"
+        app:title="Switch" />
 
     <EditTextPreference
+        app:iconSpaceReserved="false"
         app:key="editTextPreference"
-        android:title="EditText"
         app:summary="Input XXXX-XXXX-XXXX"
-        />
+        app:title="EditText" />
 </PreferenceScreen>
