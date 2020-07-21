@@ -24,6 +24,48 @@
 
     </Preference>
 
+    <CheckBoxPreference
+        app:iconSpaceReserved="false"
+        app:key="checkBoxPreference"
+        app:summary="CheckBox XXXX-XXXX-XXXX"
+        app:title="CheckBox"/>
+
+    <DropDownPreference
+        app:iconSpaceReserved="false"
+        app:key="dropDownPreference"
+        app:summary="DropDownPreference XXXX-XXXX-XXXX"
+        app:title="DropDownPreference"
+        app:entries="@array/entries"
+        app:entryValues="@array/entryValues"
+        />
+
+    <ListPreference
+        app:iconSpaceReserved="false"
+        app:key="listPreference"
+        app:summary="ListPreference XXXX-XXXX-XXXX"
+        app:title="ListPreference"
+        app:entries="@array/entries"
+        app:entryValues="@array/entryValues"
+        />
+
+    <MultiSelectListPreference
+        app:iconSpaceReserved="false"
+        app:key="multiSelectListPreference"
+        app:summary="MultiSelectListPreference XXXX-XXXX-XXXX"
+        app:title="MultiSelectListPreference"
+        app:entries="@array/entries"
+        app:entryValues="@array/entryValues"
+        />
+
+    <SeekBarPreference
+        app:iconSpaceReserved="false"
+        app:key="seekBarPreference"
+        app:summary="SeekBarPreference XXXX-XXXX-XXXX"
+        app:title="SeekBarPReference"
+        app:min="1"
+        android:max="99"
+        />
+
     <SwitchPreferenceCompat
         app:iconSpaceReserved="false"
         app:key="switchPreference"
