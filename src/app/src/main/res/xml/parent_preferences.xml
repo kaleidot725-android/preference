@@ -4,18 +4,18 @@
 
     <Preference
         app:fragment="jp.kaleidot725.sample.setting.ChildPreferenceFragment"
-        app:iconSpaceReserved="false"
+        app:icon="@mipmap/ic_launcher"
         app:key="childPreferenceFragment"
         app:title="Navigate Child Preference" />
 
     <Preference
         app:fragment="jp.kaleidot725.sample.setting.CustomFragment"
-        app:iconSpaceReserved="false"
+        app:icon="@mipmap/ic_launcher"
         app:key="navigateCustomFragment"
         app:title="Navigate Custom Preference" />
 
     <Preference
-        app:iconSpaceReserved="false"
+        app:icon="@mipmap/ic_launcher"
         app:key="intent"
         app:title="Google Web Search">
         <intent
@@ -25,13 +25,13 @@
     </Preference>
 
     <CheckBoxPreference
-        app:iconSpaceReserved="false"
+        app:icon="@mipmap/ic_launcher"
         app:key="checkBoxPreference"
         app:summary="CheckBox XXXX-XXXX-XXXX"
         app:title="CheckBox"/>
 
     <DropDownPreference
-        app:iconSpaceReserved="false"
+        app:icon="@mipmap/ic_launcher"
         app:key="dropDownPreference"
         app:summary="DropDownPreference XXXX-XXXX-XXXX"
         app:title="DropDownPreference"
@@ -40,7 +40,7 @@
         />
 
     <ListPreference
-        app:iconSpaceReserved="false"
+        app:icon="@mipmap/ic_launcher"
         app:key="listPreference"
         app:summary="ListPreference XXXX-XXXX-XXXX"
         app:title="ListPreference"
@@ -49,7 +49,7 @@
         />
 
     <MultiSelectListPreference
-        app:iconSpaceReserved="false"
+        app:icon="@mipmap/ic_launcher"
         app:key="multiSelectListPreference"
         app:summary="MultiSelectListPreference XXXX-XXXX-XXXX"
         app:title="MultiSelectListPreference"
@@ -58,7 +58,7 @@
         />
 
     <SeekBarPreference
-        app:iconSpaceReserved="false"
+        app:icon="@mipmap/ic_launcher"
         app:key="seekBarPreference"
         app:summary="SeekBarPreference XXXX-XXXX-XXXX"
         app:title="SeekBarPReference"
@@ -67,13 +67,13 @@
         />
 
     <SwitchPreferenceCompat
-        app:iconSpaceReserved="false"
+        app:icon="@mipmap/ic_launcher"
         app:key="switchPreference"
         app:summary="Enable XXXX-XXXX-XXXX"
         app:title="Switch" />
 
     <EditTextPreference
-        app:iconSpaceReserved="false"
+        app:icon="@mipmap/ic_launcher"
         app:key="editTextPreference"
         app:summary="Input XXXX-XXXX-XXXX"
         app:title="EditText" />
