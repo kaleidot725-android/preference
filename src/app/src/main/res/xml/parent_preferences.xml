@@ -24,7 +24,7 @@
 
     </Preference>
 
-    <CheckBoxPreferencsss
+    <CheckBoxPreference
         app:icon="@mipmap/ic_launcher"
         app:key="checkBoxPreference"
         app:title="CheckBox" />
@@ -53,9 +53,9 @@
         app:title="MultiSelectListPreference" />
 
     <SeekBarPreference
-        android:max="99"
         app:icon="@mipmap/ic_launcher"
         app:key="seekBarPreference"
+        android:max="99"
         app:min="1"
         app:title="SeekBarPReference" />
 
