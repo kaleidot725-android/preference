@@ -24,57 +24,50 @@
 
     </Preference>
 
-    <CheckBoxPreference
+    <CheckBoxPreferencsss
         app:icon="@mipmap/ic_launcher"
         app:key="checkBoxPreference"
-        app:summary="CheckBox XXXX-XXXX-XXXX"
-        app:title="CheckBox"/>
+        app:title="CheckBox" />
 
     <DropDownPreference
+        app:entries="@array/entries"
+        app:entryValues="@array/entryValues"
         app:icon="@mipmap/ic_launcher"
         app:key="dropDownPreference"
-        app:summary="DropDownPreference XXXX-XXXX-XXXX"
         app:title="DropDownPreference"
-        app:entries="@array/entries"
-        app:entryValues="@array/entryValues"
-        />
+        app:useSimpleSummaryProvider="true" />
 
     <ListPreference
+        app:entries="@array/entries"
+        app:entryValues="@array/entryValues"
         app:icon="@mipmap/ic_launcher"
         app:key="listPreference"
-        app:summary="ListPreference XXXX-XXXX-XXXX"
         app:title="ListPreference"
-        app:entries="@array/entries"
-        app:entryValues="@array/entryValues"
-        />
+        app:useSimpleSummaryProvider="true" />
 
     <MultiSelectListPreference
-        app:icon="@mipmap/ic_launcher"
-        app:key="multiSelectListPreference"
-        app:summary="MultiSelectListPreference XXXX-XXXX-XXXX"
-        app:title="MultiSelectListPreference"
         app:entries="@array/entries"
         app:entryValues="@array/entryValues"
-        />
+        app:icon="@mipmap/ic_launcher"
+        app:key="multiSelectListPreference"
+        app:title="MultiSelectListPreference" />
 
     <SeekBarPreference
+        android:max="99"
         app:icon="@mipmap/ic_launcher"
         app:key="seekBarPreference"
-        app:summary="SeekBarPreference XXXX-XXXX-XXXX"
-        app:title="SeekBarPReference"
         app:min="1"
-        android:max="99"
-        />
+        app:title="SeekBarPReference" />
 
     <SwitchPreferenceCompat
         app:icon="@mipmap/ic_launcher"
         app:key="switchPreference"
-        app:summary="Enable XXXX-XXXX-XXXX"
-        app:title="Switch" />
+        app:title="Switch"
+        app:useSimpleSummaryProvider="true" />
 
     <EditTextPreference
         app:icon="@mipmap/ic_launcher"
         app:key="editTextPreference"
-        app:summary="Input XXXX-XXXX-XXXX"
-        app:title="EditText" />
+        app:title="EditText"
+        app:useSimpleSummaryProvider="true" />
 </PreferenceScreen>
